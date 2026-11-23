@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Clicker</string>
+    <string name="service_description">Screen Clicker performs automatic taps on the point you select. It does not read screen content.</string>
+    <string name="service_enabled">Accessibility service: ENABLED</string>
+    <string name="service_disabled">Accessibility service: DISABLED – enable \"Screen Clicker\" in Accessibility settings.</string>
+    <string name="open_accessibility">Open Accessibility settings</string>
+    <string name="screen_profile">Coordinates are given for screen:</string>
+    <string name="tap_point">Tap point (X, Y)</string>
+    <string name="x_hint">X</string>
+    <string name="y_hint">Y</string>
+    <string name="tap_rate">Tap rate (taps per second, 0.1 – 20)</string>
+    <string name="rate_hint">e.g. 5</string>
+    <string name="show_controls">Save &amp; show floating controls</string>
+    <string name="hide_controls">Hide floating controls</string>
+    <string name="invalid_input">Please enter valid, non‑negative numbers.</string>
+    <string name="enable_service_first">Enable the Screen Clicker accessibility service first.</string>
+    <string name="overlay_hint">Open the target app, drag the target if needed and press Start.</string>
+    <string name="help">How to use:\n1. Enable the accessibility service.\n2. Pick the screen profile your coordinates come from (or \"This device\"), enter X/Y and the tap rate.\n3. Press \"Save &amp; show floating controls\".\n4. Open the app you want to tap, drag the blue target onto the exact spot if needed and press Start. Press Stop to finish.</string>
+    <string name="panel_title">⠿ Clicker (drag)</string>
+    <string name="start">▶ Start</string>
+    <string name="stop">■ Stop</string>
+    <string name="close">Close</string>
+    <string name="tap_count">Taps: %1$d</string>
+</resources>
