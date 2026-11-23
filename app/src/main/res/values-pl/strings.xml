@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Clicker</string>
+
+    <string name="instructions">Jak u\u017cywa\u0107:\n\n1. Ustaw poni\u017cej odst\u0119p mi\u0119dzy klikni\u0119ciami i zapisz go.\n2. Otw\u00f3rz ustawienia u\u0142atwie\u0144 dost\u0119pu i w\u0142\u0105cz us\u0142ug\u0119 Screen Clicker.\n3. Wr\u00f3\u0107 i naci\u015bnij \u201ePoka\u017c / ukryj cel\u201d.\n4. Przeci\u0105gnij celownik w miejsce, kt\u00f3re ma by\u0107 klikane.\n5. Naci\u015bnij Start na p\u0142ywaj\u0105cym panelu \u2013 aplikacja b\u0119dzie automatycznie klika\u0107 ten punkt. Naci\u015bnij Stop, aby wstrzyma\u0107, lub \u2715, aby zamkn\u0105\u0107 nak\u0142adk\u0119.</string>
+
+    <string name="interval_label">Odst\u0119p powtarzania (milisekundy)</string>
+    <string name="interval_hint">np. 1000 = jedno klikni\u0119cie na sekund\u0119</string>
+    <string name="save_interval">Zapisz odst\u0119p</string>
+    <string name="interval_saved">Zapisano odst\u0119p: %1$d ms</string>
+    <string name="interval_invalid">Podaj liczb\u0119 co najmniej %1$d ms</string>
+
+    <string name="open_accessibility_settings">Otw\u00f3rz ustawienia u\u0142atwie\u0144 dost\u0119pu</string>
+    <string name="toggle_overlay">Poka\u017c / ukryj cel</string>
+    <string name="service_not_enabled">Najpierw w\u0142\u0105cz us\u0142ug\u0119 u\u0142atwie\u0144 dost\u0119pu Screen Clicker</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="interval_format">%1$d ms</string>
+    <string name="crosshair_description">Cel klikni\u0119cia</string>
+
+    <string name="accessibility_service_description">Pozwala aplikacji Screen Clicker automatycznie klika\u0107 wybrany punkt na ekranie z ustawion\u0105 cz\u0119stotliwo\u015bci\u0105. Us\u0142uga nie odczytuje zawarto\u015bci ekranu.</string>
+</resources>

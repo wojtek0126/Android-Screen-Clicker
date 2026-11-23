@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Clicker</string>
+
+    <string name="instructions">How to use:\n\n1. Set the repeat interval below and save it.\n2. Open Accessibility settings and enable the Screen Clicker service.\n3. Come back and tap \u201cShow / hide target\u201d.\n4. Drag the crosshair to the point you want to tap.\n5. Press Start on the floating panel \u2013 the app will tap that point automatically. Press Stop to pause or \u2715 to close the overlay.</string>
+
+    <string name="interval_label">Repeat interval (milliseconds)</string>
+    <string name="interval_hint">e.g. 1000 = one tap per second</string>
+    <string name="save_interval">Save interval</string>
+    <string name="interval_saved">Interval saved: %1$d ms</string>
+    <string name="interval_invalid">Enter a number of at least %1$d ms</string>
+
+    <string name="open_accessibility_settings">Open Accessibility settings</string>
+    <string name="toggle_overlay">Show / hide target</string>
+    <string name="service_not_enabled">Enable the Screen Clicker accessibility service first</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="close">\u2715</string>
+    <string name="drag_handle">\u2630</string>
+    <string name="interval_format">%1$d ms</string>
+    <string name="crosshair_description">Tap target</string>
+
+    <string name="accessibility_service_description">Allows Screen Clicker to automatically tap a point you choose on the screen at a configurable repeat rate. The service does not read screen content.</string>
+</resources>
