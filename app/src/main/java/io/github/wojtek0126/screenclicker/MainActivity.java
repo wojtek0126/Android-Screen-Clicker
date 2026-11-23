@@ -136,8 +136,8 @@ public class MainActivity extends Activity {
     }
 
     private static String format(double value) {
-        if (value == Math.rint(value) && Math.abs(value) < 1e9) {
-            return String.valueOf((long) value);
+        if (value == Math.rint(value)) {
+            return String.format(Locale.US, "%.0f", value);
         }
         return String.format(Locale.US, "%.2f", value);
     }
