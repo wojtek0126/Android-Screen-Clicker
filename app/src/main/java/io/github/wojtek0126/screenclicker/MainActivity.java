@@ -93,9 +93,9 @@ public class MainActivity extends Activity {
     /** Copies valid input values into {@link #settings}; returns false on invalid input. */
     private boolean readInputs() {
         try {
-            float x = Float.parseFloat(xInput.getText().toString().trim());
-            float y = Float.parseFloat(yInput.getText().toString().trim());
-            double rate = Double.parseDouble(rateInput.getText().toString().trim());
+            float x = (float) parse(xInput);
+            float y = (float) parse(yInput);
+            double rate = parse(rateInput);
             if (x < 0 || y < 0 || Float.isNaN(x) || Float.isNaN(y)
                     || Float.isInfinite(x) || Float.isInfinite(y)
                     || Double.isNaN(rate) || rate <= 0) {
@@ -128,6 +128,11 @@ public class MainActivity extends Activity {
         service.showOverlay();
         Toast.makeText(this, R.string.overlay_hint, Toast.LENGTH_LONG).show();
         moveTaskToBack(true);
+    }
+
+    /** Accepts both '.' and ',' as decimal separator (keyboards follow the device locale). */
+    private static double parse(EditText input) {
+        return Double.parseDouble(input.getText().toString().trim().replace(',', '.'));
     }
 
     private static String format(double value) {
